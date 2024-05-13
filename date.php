@@ -1,6 +1,6 @@
 <?php
 session_start([
-  'cookie_lifetime' => 43200,
+  'cookie_lifetime' => 28800,
 ]);
 function date1() {
     $now = new DateTime();
